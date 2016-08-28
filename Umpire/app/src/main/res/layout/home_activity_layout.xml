@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    tools:context="com.example.nthompson.umpire.HomeActivity">
+
+        <LinearLayout
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+
+            <TextView
+                android:textSize="14sp"
+                android:text="@string/zero"
+                android:id="@+id/strikeCountView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="@string/strike_text"
+                android:textSize="14sp"
+                android:id="@+id/strikeButtonCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+
+            <TextView
+                android:textSize="14sp"
+                android:text="@string/zero"
+                android:id="@+id/ballCountView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="@string/ball_text"
+                android:id="@+id/ballButtonCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    <TextView
+        android:text="@string/total_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/totalCountView"
+        android:textSize="14sp"
+        android:text="@string/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

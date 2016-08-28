@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="about_text_body">Umpire by Nick Thompson</string>
+
+    <!--Home Activity -->
+    <string name="app_name">Umpire</string>
+    <string name="player_walk">Walk!</string>
+    <string name="player_out">You\'re Out!</string>
+    <string name="zero">0</string>
+    <string name="ball_text">Ball</string>
+    <string name="strike_text">Strike</string>
+    <string name="reset_text">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="total_count">Total Outs: </string>
+
+    <!-- Menu -->
+    <string name="reset_button">Reset</string>
+    <string name="about_button">About</string>
+
+</resources>
